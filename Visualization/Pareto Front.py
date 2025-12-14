@@ -1,0 +1,8 @@
+plt.figure(figsize=(8,6))
+plt.scatter(Y_opt[:, 0], Y_opt[:, 1], c='red', edgecolors='black', s=40)
+plt.xlabel("Polyphenol content", fontsize=12)
+plt.ylabel("Chlorogenic Acid content", fontsize=12)
+plt.title("NSGA-II Pareto Front: Polyphenol vs Chlorogenic Acid", fontsize=14)
+plt.grid(True)
+plt.tight_layout()
+plt.show()
